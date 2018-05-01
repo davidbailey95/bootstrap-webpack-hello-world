@@ -4,7 +4,7 @@ import './index.scss';
 
 class MyTestClass {
   static main() {
-    $('#title').text('Hello from index.js!');
+    $('<h1>Hello, world!</h1>').appendTo('body');
   }
 }
 
