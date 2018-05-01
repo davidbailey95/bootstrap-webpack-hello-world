@@ -42,7 +42,8 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       title: 'Hello, world!',
-      meta: { viewport: 'width=device-width, initial-scale=1, shrink-to-fit=no' }
+      meta: { viewport: 'width=device-width, initial-scale=1, shrink-to-fit=no' },
+      minify: { collapseWhitespace: true }
     })
   ]
 };
