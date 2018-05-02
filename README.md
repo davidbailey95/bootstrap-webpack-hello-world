@@ -33,10 +33,36 @@ resources.
 Instructions
 ------------
 
-1. Create a new npm project:
+1.  Create a new npm project:
 
-   ```sh
-   ~/SomeDirectory $ mkdir bootstrap-webpack-hello-world
-   ~/SomeDirectory $ cd bootstrap-webpack-hello-world
-   ~/SomeDirectory/bootstrap-webpack-hello-world $ npm init
-   ```
+    ```sh
+    ~/Code $ mkdir bootstrap-webpack-hello-world  # or any other name
+    ~/Code $ cd bootstrap-webpack-hello-world
+    ~/Code/bootstrap-webpack-hello-world $ npm init
+    ```
+
+2.  Install the required development dependencies:
+
+    ```sh
+    # Webpack itself
+    $ npm install --save-dev webpack webpack-cli
+
+    # Babel (for ES6 to ES5 transpilation and bundling)
+    $ npm install --save-dev "@babel-loader@^8.0.0-beta.2" @babel/core @babel/preset-env
+
+    # Stylesheet tools (for SCSS to CSS transpilation and bundling)
+    $ npm install --save-dev autoprefixer css-loader node-sass postcss-loader precss sass-loader style-loader
+
+    # HTML Webpack Plugin (for automatic HTML generation)
+    $ npm install --save-dev html-webpack-plugin
+
+    # ESLint (for checking JavaScript code style)
+    $ npm install --save-dev eslint
+    ```
+
+3.  Install the required production dependencies - Bootstrap, jQuery and
+    Popper.js:
+
+    ```sh
+    $ npm install bootstrap jquery popper
+    ```
