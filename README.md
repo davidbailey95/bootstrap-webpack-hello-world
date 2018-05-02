@@ -7,26 +7,25 @@ Why did I create this?
 > *If you just want to read the instructions, scroll down to the next header.*
 
 I created this project because I couldn't find any good existing documentation
-for how to set-up a Bootstrap 4 project using Webpack 4. I intend to use it as
-a reference when I create my own projects in the future, and hope others will
+for how to setup a Bootstrap 4 project using Webpack 4. I intend to use it as
+a reference when I create my own projects in the future, and I hope others will
 also find it helpful for their projects.
 
 [Bootstrap's official documentation] for using Webpack is very poor since it
 doesn't explain all the steps properly, and misses out some steps altogether.
-Additionally, it describes the process for Webpack 3, rather than the latest
-version, 4.
+Additionally, it hasn't yet been updated for Webpack 4.
 
 [Bootstrap's official documentation]: https://getbootstrap.com/docs/4.0/getting-started/webpack/
 
-[Another project] exists which aims to demonstrate how to set-up a simple
-Bootstrap + Webpack project, although as with Bootstrap's official documentation
-this has some problems - it's outdated, so also uses Webpack 3, and doesn't have
-any instructions, only the finished result.
+[Another project] exists which demonstrates a bare-bones Bootstrap + Webpack
+project, but like Bootstrap's official documentation, this has some problems -
+it's outdated, so also uses Webpack 3, and doesn't provide any instructions
+(only the finished result).
 
-I spent a considerable amount of time trying to figure out how to create a
-project, even with access to both of the resources above and others, due to the
-changes with newer package versions and lack of detailed information from the
-resources.
+I spent a long time trying to figure out how to create a project, even with
+access to both of the resources above (and others), due to the changes with
+newer versions of dependent packages and lack of detailed information from the
+mentioned resources.
 
 [Another project]: https://github.com/xdvarpunen/webpackboot
 
